@@ -29,9 +29,31 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+PropTypes are used to set a certain input that should be accepted to a component. 
+Type checking will save a lot of time when it comes to debugging
+
 - [ ] Describe a life-cycle event in React?
+
+Life-cycle has mounting updating and unmounting. Mounting is called when the component is initially being 
+created (EX: constructor, render, didMount). Updating is when something changes such as props or state. 
+(EX: render, didUpdate) Unmounting is when a component is removed from our DOM. (willUnmount)
+
 - [ ] Explain the details of a Higher Order Component?
+
+This is a React composition pattern, this lets us re-use the component. An HOC is a function
+that takes in a Component as a parameter while returning a new Component. Using an HOC cuts down on a lot
+of extra work, because you are able to re-use logic from the component.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+a normal CSS stylesheet - this will be easier for a novice developer to understand, and will be closer
+to what is first taught so maybe more comfortable.
+
+ReactStrap - this will come with some pre-built components so this will save a lot of time.
+
+Styled Components - This is by far the most efficient way to style in React imo. It is fairly intuitive and
+it really saves a lot of time/resources since you can style directly in the components JS file.
 
 ## Project Setup
 
